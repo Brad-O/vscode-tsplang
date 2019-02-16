@@ -62,6 +62,11 @@ For additional `vsce` help, please refer to its [documentation](https://code.vis
 
 Visual Studio Code build tasks have been configured for both Client and Server and live in the [`.vscode/tasks.json`](/.vscode/tasks.json) file. To run both build tasks, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> on Windows and Linux or <kbd>&#8679;</kbd><kbd>&#8984;</kbd><kbd>B</kbd> on Mac.
 
+Developing has its own set of required packages. You can install these dependancies by executing:
+```
+npm install --devDependencies
+```
+
 ### Client Watch: `npm run watch:client`
 
 Watches Client files in [`src`](/src) and compiles any changes.
